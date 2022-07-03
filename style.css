@@ -1,0 +1,107 @@
+/* creating a margin for the body text of the website*/
+
+body main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-style {
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Created a Banner for webpage and added a background */
+
+h1 {
+    background: forestgreen;
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: 125px;
+}
+
+
+/* Gave the subheader it's own style*/
+
+header p {
+    font-size: 40px;
+    font-family: 'fantasy';
+    color: rgb(255, 0, 63);
+    background-color: rgb(10, 126, 140);
+    padding: 0px;
+    margin: auto;
+    height: 0%;
+}
+
+
+/* Created a background and unique font for the secondary header */
+
+h2 {
+    background: forestgreen;
+    font-size: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* centered all the text in the webpage */
+
+h1,
+p,
+h2,
+h3,
+header p,
+ol,
+ul,
+li {
+    text-align: center;
+}
+
+
+/* aligned bullet points and numbered list to be inside the unordered-ordered lists */
+
+.list-inside li,
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+
+/* assigned 'contact' to be responsive the user's actions */
+
+a:link {
+    color: rgb(76, 40, 130);
+}
+
+a:visited {
+    color: rgb(3, 80, 150);
+}
+
+a:hover {
+    color: rgb(60, 208, 112);
+}
+
+a:active {
+    color: rgb(238, 230, 0);
+}
+
+
+/* set a background for the footer and set a margin */
+
+footer {
+    background: rgb(10, 126, 140);
+    color: rgb(255, 0, 63);
+    margin: auto;
+    width: auto;
+}
